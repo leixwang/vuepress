@@ -4,10 +4,11 @@ const fs = require('fs')
 
 // 获取文件名
 function getFileName(root, dir) {
-    let path = root + dir
-    let fileNames = []
+    const path = root + dir
+    const fileNames = []
+		console.log("111", path)
     fs.readdirSync(path).forEach(file => {
-
+			console.log("222", file)
 			// 只处理 .md 文件
 			if (/.md$/.test(file)) {
 				let name = file.replace(/.md$/, '')
