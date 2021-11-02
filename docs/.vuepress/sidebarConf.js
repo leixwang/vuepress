@@ -1,5 +1,6 @@
 // 文档路径
-const docsPath = process.cwd() + '/docs'
+const docsPath = '..'
+// const docsPath = process.cwd() + '/docs'
 const fs = require('fs')
 
 // 获取文件名
