@@ -28,7 +28,7 @@ module.exports = {
 				link: '/markdown/'
 			},
 		],
-		sidebar: [
+		sidebar: {
 			'/markdown/lang/': {
 			title: '计算机语言',
 			collapsable: true,
@@ -38,6 +38,6 @@ module.exports = {
 				'swift',
 				'markdown'
 			]},
-	],
+		},
 	}
 }
