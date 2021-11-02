@@ -28,6 +28,15 @@ module.exports = {
 				link: '/markdown/'
 			},
 		],
-		sidebar: require('./sidebarConf.js'),
+		sidebar: [{
+			title: '计算机语言',
+			collapsable: true,
+			children: [
+				'/markdown/lang/javascript',
+				'/markdown/lang/swift',
+				'/markdown/lang/golang',
+				'/markdown/lang/markdown',				]
+		},
+	],
 	}
 }
