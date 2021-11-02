@@ -28,15 +28,16 @@ module.exports = {
 				link: '/markdown/'
 			},
 		],
-		sidebar: [{
+		sidebar: [
+			'/markdown/lang/': {
 			title: '计算机语言',
 			collapsable: true,
 			children: [
-				'/markdown/lang/golang',
-				'/markdown/lang/javascript',
-				'/markdown/lang/swift',
-				'/markdown/lang/markdown',				]
-		},
+				'golang',
+				'javascript',
+				'swift',
+				'markdown'
+			]},
 	],
 	}
 }
