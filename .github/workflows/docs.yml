@@ -44,7 +44,7 @@ jobs:
         run: yarn --frozen-lockfile
 
       - name: Build documentation site
-        run: yarn build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.2.0

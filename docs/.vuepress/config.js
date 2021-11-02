@@ -32,9 +32,9 @@ module.exports = {
 			title: '计算机语言',
 			collapsable: true,
 			children: [
+				'/markdown/lang/golang',
 				'/markdown/lang/javascript',
 				'/markdown/lang/swift',
-				'/markdown/lang/golang',
 				'/markdown/lang/markdown',				]
 		},
 	],
